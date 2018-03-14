@@ -1,0 +1,21 @@
+* {
+  color: white;
+}
+
+body {
+  background-color: black;
+}
+
+.sidebar {
+  float: left;
+  background-color: #d64d4d;
+}
+
+.gallery {
+  background-color: #e39e54;
+}
+
+img {
+  padding: 4px;
+  background-color: #9ed670;
+}
