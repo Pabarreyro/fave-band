@@ -1,5 +1,6 @@
 * {
   color: white;
+  font-family: sans-serif;
 }
 
 body {
@@ -7,15 +8,30 @@ body {
 }
 
 .sidebar {
+  font-size: 18px;
+  padding-right: 18px;
+  height: 100vh;
   float: left;
   background-color: #d64d4d;
 }
 
 .gallery {
-  background-color: #e39e54;
+  height: 100vh;
+}
+
+span {
+  color: #e8d174;
+}
+
+li {
+  list-style: square;
+  font-weight: 600;
 }
 
 img {
-  padding: 4px;
+  float: left;
+  width: 300px;
+  padding: 6px;
+  margin: 6px;
   background-color: #9ed670;
 }
